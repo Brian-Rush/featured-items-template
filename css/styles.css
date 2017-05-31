@@ -5,7 +5,7 @@
 }
 
 /**:not(body):not(html) {
-
+  border: dashed 1px black;
 }*/
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .heading-div {
-  margin-bottom: 4vh;
+  margin: 0 auto 4vh auto;
   clear: left;
 }
 
@@ -50,6 +50,7 @@ body {
 
 .item {
   width: 96vw;
+  margin-bottom: 2vh;
 }
 
 .item img {
@@ -61,6 +62,34 @@ body {
   margin-bottom: 1vh;
 }
 
-.item-text p {
-  margin-bottom: 2vh;
+@media screen and (min-width:415px) {
+
+  .nav {
+    float: right;
+    margin-right: 20vw;
+    margin-bottom: 0;
+  }
+
+  .heading-div {
+    clear: right;
+  }
+
+  .company {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .nav-top {
+    overflow: auto;
+    margin-bottom: 2vh;
+  }
+
+  .item {
+    width: 47vw;
+    float: left;
+  }
+
+  .item:nth-of-type(odd) {
+    margin-right: 2vw;
+  }
 }
