@@ -32,6 +32,7 @@ body {
 }
 
 .heading-div {
+  width:90vw;
   margin: 0 auto 4vh auto;
   clear: left;
 }
@@ -64,6 +65,10 @@ body {
 
 @media screen and (min-width:415px) {
 
+  .company h3 {
+    font-size: 20px;
+  }
+
   .nav {
     float: right;
     margin-right: 20vw;
@@ -90,6 +95,29 @@ body {
   }
 
   .item:nth-of-type(odd) {
+    margin-right: 2vw;
+  }
+}
+
+@media screen and (min-width:1300px) {
+
+  .company h3 {
+    font-size: 25px;
+  }
+
+  .nav {
+    margin-right: 5vw;
+  }
+
+  .nav li {
+    font-size: 1.2em;
+  }
+
+  .item {
+    width: calc(90vw/4);
+  }
+
+  .item:nth-child(-n+3) {
     margin-right: 2vw;
   }
 }
