@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**:not(body):not(html) {
+
+}*/
+
+body {
+  margin: 2vh 2vw;
+}
+
+.company {
+  margin-bottom: 2vh;
+}
+
+.nav {
+  margin-bottom: 3vh;
+  overflow: auto;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  float:left;
+  margin-right: 10px;
+
+}
+
+.heading-div {
+  margin-bottom: 4vh;
+  clear: left;
+}
+
+.heading {
+  margin-bottom: 1vh;
+}
+
+.heading h1 {
+  font-size: 5vw;
+}
+
+.sub-heading h2 {
+  font-size: 4vw;
+}
+
+.item {
+  width: 96vw;
+}
+
+.item img {
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.item-text h4 {
+  margin-bottom: 1vh;
+}
+
+.item-text p {
+  margin-bottom: 2vh;
+}
